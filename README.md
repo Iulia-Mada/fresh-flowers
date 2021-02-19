@@ -21,4 +21,7 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+
+*api documentation
+
+http://localhost:3000/redoc.html
