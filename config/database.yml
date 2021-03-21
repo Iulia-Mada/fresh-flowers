@@ -81,6 +81,5 @@ test:
 #
 production:
   <<: *default
-  database: fresh_flowers_api_production
-  username: fresh_flowers_api
-  password: <%= ENV['FRESH_FLOWERS_API_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+
